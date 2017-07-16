@@ -6,6 +6,12 @@ The main changes are:
 * Turn off mining on the testnet node
 * Add a volume on the base image so that accounts/chain data is not lost.
 
+### Running a Testnet Node
+```
+$ docker pull pooleja/geth-testnet
+$ docker run pooleja/geth-testnet
+```
+
 ### Attaching to Node
 You can attach to the bash shell of the node to get on the geth console:
 ```
